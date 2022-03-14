@@ -1,7 +1,7 @@
 {
-  "name": "openblock-gui",
-  "version": "0.1.0",
-  "description": "GraphicaL User Interface for creating and running OpenBlock projects",
+  "name": "haniblock-gui",
+  "version": "1.0.0",
+  "description": "GraphicaL User Interface for creating and running Haniblock projects",
   "main": "./dist/scratch-gui.js",
   "scripts": {
     "build": "npm run clean && webpack --colors --bail",
@@ -21,13 +21,15 @@
   },
   "author": "Massachusetts Institute of Technology",
   "license": "BSD-3-Clause",
-  "homepage": "https://github.com/openblockcc/openblock-gui#readme",
+  "homepage": "https://github.com/suku1989/haniblock-gui#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/openblockcc/openblock-gui.git"
+    "url": "git+ssh://git@github.com/suku1989/haniblock-gui.git"
   },
   "dependencies": {
     "@ramonak/react-progress-bar": "^3.1.0",
+    "@tensorflow/tfjs-converter": "^3.13.0",
+    "@tensorflow/tfjs-core": "^3.13.0",
     "ansi-to-react": "^6.0.8",
     "arraybuffer-loader": "^1.0.6",
     "autoprefixer": "^9.0.1",
@@ -44,6 +46,9 @@
     "file-loader": "2.0.0",
     "get-float-time-domain-data": "0.1.0",
     "get-user-media-promise": "1.1.4",
+    "haniblock-blocks": "github:suku1989/haniblock-blocks#develop",
+    "haniblock-l10n": "github:suku1989/haniblock-l10n#develop",
+    "haniblock-vm": "suku1989/haniblock-vm#develop",
     "iconv-lite": "^0.6.2",
     "immutable": "3.8.2",
     "intl": "1.2.5",
@@ -57,10 +62,7 @@
     "minilog": "3.1.0",
     "monaco-editor": "^0.15.1",
     "omggif": "1.0.9",
-    "openblock-blocks": "0.1.0-prerelease.20220105091810",
-    "openblock-l10n": "^3.10.20220304103031",
     "openblock-save-svg-as-png": "^1.4.18",
-    "openblock-vm": "^0.2.0-prerelease.20220217104836",
     "papaparse": "5.3.0",
     "postcss-import": "^12.0.0",
     "postcss-loader": "^3.0.0",

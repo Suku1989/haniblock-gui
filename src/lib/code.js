@@ -1,5 +1,5 @@
-import 'openblock-blocks/arduino_compressed';
-import 'openblock-blocks/python_compressed';
+import 'haniblock-blocks/arduino_compressed';
+import 'haniblock-blocks/python_compressed';
 
 const getLanguageFromDeviceType = deviceType => {
     if (deviceType === 'arduino') {
