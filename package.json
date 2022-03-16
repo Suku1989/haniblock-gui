@@ -46,6 +46,7 @@
     "file-loader": "2.0.0",
     "get-float-time-domain-data": "0.1.0",
     "get-user-media-promise": "1.1.4",
+    "gh-pages": "^3.2.3",
     "haniblock-blocks": "github:suku1989/haniblock-blocks#develop",
     "haniblock-l10n": "github:suku1989/haniblock-l10n#develop",
     "haniblock-vm": "suku1989/haniblock-vm#develop",
