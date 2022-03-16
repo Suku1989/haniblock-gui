@@ -943,6 +943,38 @@
         "blocks": {}
     },
     {
+        "name": "Baka",
+        "tags": [
+            "sports",
+            "people"
+           
+        ],
+        "isStage": false,
+        "variables": {},
+        "costumes": [
+            {
+                "assetId": "0a984ac2730a970b9aa04d71c2cf4188",
+                "name": "Baka-a",
+                "bitmapResolution": 1,
+                "dataFormat": "png",
+                "md5ext": "0a984ac2730a970b9aa04d71c2cf4188.png",
+                "rotationCenterX": 31.00008984350052,
+                "rotationCenterY": 49
+            },
+            {
+                "assetId": "6fdcbdc219ea42cd34ffd7fe6f4b989a",
+                "name": "Baka-b",
+                "bitmapResolution": 1,
+                "dataFormat": "png",
+                "md5ext": "6fdcbdc219ea42cd34ffd7fe6f4b989a.png",
+                "rotationCenterX": 29.496239121982484,
+                "rotationCenterY": 23.769351839794098
+            }
+        ],
+        "sounds": [],
+        "blocks": {}
+    },
+    {
         "name": "Beachball",
         "tags": [
             "round",
@@ -12241,6 +12273,29 @@
                 "sampleCount": 44705,
                 "md5ext": "fb56022366d21b299cbc3fd5e16000c2.wav"
             }
+        ],
+        "blocks": {}
+    },
+    {
+        "name": "Square Box",
+        "tags": [
+            "drawing"
+        ],
+        "isStage": false,
+        "variables": {},
+        "costumes": [
+            {
+                "assetId": "0f8b05ff02dd3213bd55ed4a26a6c3c4",
+                "name" : "Square Box",
+                "bitmapResolution": 1,
+                "dataFormat": "svg",
+                "md5ext": "0f8b05ff02dd3213bd55ed4a26a6c3c4.svg",
+                "rotationCenterX": 32,
+                "rotationCenterY": 101
+            }
+        ],
+        "sounds": [
+            
         ],
         "blocks": {}
     },

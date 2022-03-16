@@ -814,6 +814,30 @@
         "rotationCenterY": 102
     },
     {
+        "name": "Baka-a",
+        "tags": [
+            "people"
+        ],
+        "assetId": "0a984ac2730a970b9aa04d71c2cf4188",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "0a984ac2730a970b9aa04d71c2cf4188.png",
+        "rotationCenterX": 48,
+        "rotationCenterY": 50
+    },
+    {
+        "name": "Baka-b",
+        "tags": [
+            "people"
+        ],
+        "assetId": "6fdcbdc219ea42cd34ffd7fe6f4b989a",
+        "bitmapResolution": 1,
+        "dataFormat": "png",
+        "md5ext": "6fdcbdc219ea42cd34ffd7fe6f4b989a.png",
+        "rotationCenterX": 46,
+        "rotationCenterY": 53
+    },
+    {
         "name": "Beachball",
         "tags": [
             "round",
@@ -9651,6 +9675,18 @@
         "md5ext": "697f6becae5321f77990636564ef0c97.svg",
         "rotationCenterX": 53,
         "rotationCenterY": 79
+    },
+    {
+        "name": "Square Box",
+        "tags": [
+            "drawing"
+        ],
+        "assetId": "0f8b05ff02dd3213bd55ed4a26a6c3c4",
+        "bitmapResolution": 1,
+        "dataFormat": "svg",
+        "md5ext": "0f8b05ff02dd3213bd55ed4a26a6c3c4.svg",
+        "rotationCenterX": 32,
+        "rotationCenterY": 101
     },
     {
         "name": "Squirrel",
