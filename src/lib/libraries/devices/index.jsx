@@ -36,7 +36,7 @@ import microbitV2IconURL from './microbitV2/microbitV2.png';
 import microbitV2ConnectionIconURLL from './microbitV2/microbitV2-illustration.svg';
 import microbitV2ConnectionSmallIconURL from './microbitV2/microbitV2-small.svg';
 
-import esp32IconURL from './esp32/esp32.png';
+import esp32IconURL from './esp32/hanit.png';
 import esp32ConnectionIconURLL from './esp32/esp32-illustration.svg';
 import esp32ConnectionSmallIconURL from './esp32/esp32-small.svg';
 
@@ -74,6 +74,43 @@ const deviceData = [
         programMode: ['realtime'],
         programLanguage: ['block'],
         tags: ['realtime']
+    },
+    {
+        name: 'HanIT',
+        deviceId: 'arduinoEsp32',
+        manufactor: 'myskillskool',
+        learnMore: 'https://www.espressif.com/',
+        type: 'arduino',
+        iconURL: esp32IconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Wi-Fi & Bluetooth control board with rich functions."
+                description="Description for the HanIT device"
+                id="gui.device.arduinoEsp32.description"
+            />
+        ),
+        featured: true,
+        disabled: false,
+        bluetoothRequired: false,
+        serialportRequired: true,
+        defaultBaudRate: '115200',
+        internetConnectionRequired: false,
+        launchPeripheralConnectionFlow: true,
+        useAutoScan: false,
+        connectionIconURL: esp32ConnectionIconURLL,
+        connectionSmallIconURL: esp32ConnectionSmallIconURL,
+        connectingMessage: (
+            <FormattedMessage
+                defaultMessage="Connecting"
+                description="Message to help people connect to their HanIT."
+                id="gui.device.arduinoEsp32.connectingMessage"
+            />
+        ),
+        baseToolBoxXml: arduinoBaseToolBox,
+        programMode: ['upload'],
+        programLanguage: ['block', 'c', 'cpp'],
+        tags: ['arduino'],
+        helpLink: 'https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/hw-reference/esp32/get-started-devkitc.html'
     },
     {
         name: 'Arduino Uno',
@@ -263,43 +300,7 @@ const deviceData = [
         tags: ['arduino'],
         helpLink: 'https://store.arduino.cc/usa/mega-2560-r3'
     },
-    {
-        name: 'ESP32',
-        deviceId: 'arduinoEsp32',
-        manufactor: 'espressif',
-        learnMore: 'https://www.espressif.com/',
-        type: 'arduino',
-        iconURL: esp32IconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Wi-Fi & Bluetooth control board with rich functions."
-                description="Description for the esp32 device"
-                id="gui.device.arduinoEsp32.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        bluetoothRequired: false,
-        serialportRequired: true,
-        defaultBaudRate: '115200',
-        internetConnectionRequired: false,
-        launchPeripheralConnectionFlow: true,
-        useAutoScan: false,
-        connectionIconURL: esp32ConnectionIconURLL,
-        connectionSmallIconURL: esp32ConnectionSmallIconURL,
-        connectingMessage: (
-            <FormattedMessage
-                defaultMessage="Connecting"
-                description="Message to help people connect to their esp32."
-                id="gui.device.arduinoEsp32.connectingMessage"
-            />
-        ),
-        baseToolBoxXml: arduinoBaseToolBox,
-        programMode: ['upload'],
-        programLanguage: ['block', 'c', 'cpp'],
-        tags: ['arduino'],
-        helpLink: 'https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/hw-reference/esp32/get-started-devkitc.html'
-    },
+    
     {
         name: 'ESP8266',
         deviceId: 'arduinoEsp8266',
