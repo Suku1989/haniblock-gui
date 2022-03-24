@@ -509,7 +509,7 @@ class MenuBar extends React.Component {
                 <div className={styles.mainMenu}>
                     <div className={classNames(styles.menuBarItem)}>
                         <img
-                            alt="OpenBlock"
+                            alt="HaniBlock"
                             className={classNames(styles.scratchLogo, {
                                 [styles.clickable]: typeof this.props.onClickLogo !== 'undefined'
                             })}

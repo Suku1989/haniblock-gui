@@ -71,12 +71,12 @@ const StageHeaderComponent = function (props) {
         const stageButton = showBranding ? (
             <div className={styles.embedScratchLogo}>
                 <a
-                    href="https://openblock.cc"
+                    href="https://myskillskool.com"
                     rel="noopener noreferrer"
                     target="_blank"
                 >
                     <img
-                        alt="OpenBlock"
+                        alt="HaniBlock"
                         src={scratchLogo}
                     />
                 </a>

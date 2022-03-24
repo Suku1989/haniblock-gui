@@ -32,7 +32,7 @@ describe('Hardware extension connection modal', () => {
         await driver.quit();
     });
 
-    test('Message saying OpenBlock Link is unavailable (BLE)', async () => {
+    test('Message saying HaniBlock Link is unavailable (BLE)', async () => {
         await driver.quit();
         driver = getDriver();
 
@@ -44,13 +44,13 @@ describe('Hardware extension connection modal', () => {
 
         await clickText('micro:bit');
         await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for modal to open
-        findByText('OpenBlock Link'); // OpenBlock Link is mentioned in the error modal
+        findByText('HaniBlock Link'); // HaniBlock Link is mentioned in the error modal
 
         const logs = await getLogs();
         await expect(logs).toEqual([]);
     });
 
-    test('Message saying OpenBlock Link is unavailable (BT)', async () => {
+    test('Message saying HaniBlock Link is unavailable (BT)', async () => {
         await loadUri(uri);
 
         await driver.executeScript(websocketFakeoutJs);
@@ -59,7 +59,7 @@ describe('Hardware extension connection modal', () => {
 
         await clickText('EV3');
         await new Promise(resolve => setTimeout(resolve, 1000)); // Wait for modal to open
-        findByText('OpenBlock Link'); // OpenBlock Link is mentioned in the error modal
+        findByText('HaniBlock Link'); // HaniBlock Link is mentioned in the error modal
 
         const logs = await getLogs();
         await expect(logs).toEqual([]);
