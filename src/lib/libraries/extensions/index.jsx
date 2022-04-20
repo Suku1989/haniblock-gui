@@ -48,6 +48,10 @@ import speech2textImage from './speech2text/speech.png';
 import qnaimage from './qna/qna.png';
 import qnawikipediaimage from './qnawikipedia/qnawikipedia.png';
 
+import teachableMachineBlocksIconURL from './teachable-machine-blocks/teachable-machine-logo.png';
+import teachableMachineBlocksInsetIconURL from './teachable-machine-blocks/teachable-machine-blocks-small.svg';
+
+
 export default [
     {
         name: 'Face Detection',
@@ -283,6 +287,26 @@ export default [
                 defaultMessage="Make anything into a key."
                 description="Description for the 'Makey Makey' extension"
                 id="gui.extension.makeymakey.description"
+            />
+        ),
+        featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Teachable Machine"
+                description="Teachable Machine name"
+                id="gui.extension.teachable-machine.name"
+            />
+        ),
+        extensionId: 'teachableMachine',
+        iconURL: teachableMachineBlocksIconURL,
+        insetIconURL: teachableMachineBlocksInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Use Google Teachable Machine models in your Scratch project."
+                description="Teachable Machine Description"
+                id="gui.extension.teachable-machine.description"
             />
         ),
         featured: true

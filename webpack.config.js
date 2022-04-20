@@ -133,6 +133,9 @@ module.exports = [
                 }
             ])
         },
+        node: {
+            fs: "empty"
+        },
         optimization: {
             splitChunks: {
                 chunks: 'all',
@@ -219,6 +222,9 @@ module.exports = [
                         }
                     }
                 ])
+            },
+            node: {
+                fs: "empty"
             },
             plugins: base.plugins.concat([
                 new CopyWebpackPlugin([{
