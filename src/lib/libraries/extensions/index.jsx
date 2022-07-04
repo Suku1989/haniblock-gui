@@ -294,8 +294,8 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Teachable Machine"
-                description="Teachable Machine name"
+                defaultMessage="Machine Learning"
+                description="Machine Learning name"
                 id="gui.extension.teachable-machine.name"
             />
         ),
@@ -304,7 +304,7 @@ export default [
         insetIconURL: teachableMachineBlocksInsetIconURL,
         description: (
             <FormattedMessage
-                defaultMessage="Use Google Teachable Machine models in your Scratch project."
+                defaultMessage="Use Google Teachable Machine models in your HaniBlock project."
                 description="Teachable Machine Description"
                 id="gui.extension.teachable-machine.description"
             />
